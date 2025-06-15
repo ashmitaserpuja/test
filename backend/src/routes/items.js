@@ -6,7 +6,7 @@ const DATA_PATH = path.join(__dirname, '../../../data/items.json');
 
 // Utility to read data (intentionally sync to highlight blocking issue)
 async function readData() {
-  const raw = await fs.readFile(DATA_PATH, 'utf-8'); // 
+  const raw = await fs.readFile(DATA_PATH, 'utf-8'); //read file as string
   return JSON.parse(raw);
 }
 

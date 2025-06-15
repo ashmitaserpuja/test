@@ -1,4 +1,3 @@
-// __tests__/items.test.js
 const request = require('supertest');
 const express = require('express');
 const itemsRoutes = require('../routes/items');
