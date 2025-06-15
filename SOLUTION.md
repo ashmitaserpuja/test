@@ -25,8 +25,7 @@ In ItemDetail, if fetch fails, the user is redirected back to / using navigate('
 Skeleton loaders simulate loading UX and prevent layout shift.
 
 4. Styling
-Used inline styles for simplicity and clarity in a small project, avoiding the overhead of CSS modules or external frameworks. Could be replaced with Tailwind or styled-components for scalability.
-
+Used inline styles for simplicity and clarity in a small project, avoiding the overhead of CSS modules or external frameworks.
 
 Testing
 Backend logic is fully unit-tested using Jest, focusing on:
@@ -44,7 +43,6 @@ Trade-Offs
 | ------------------------- | -------------------------------------- | -------------------------------------------------------- |
 | Using `react-window`      | Great for performance with large lists | Adds complexity for small lists                          |
 | Inline styling            | Fast and simple                        | Harder to maintain in large apps                         |
-| Global context for data   | Centralized logic                      | May need Redux/Zustand for more control                  |
 | Manual fetch & pagination | Full control and efficiency            | More boilerplate than using libraries like `react-query` |
 | Skeleton loaders          | Better UX during fetch                 | Adds minor visual code complexity                        |
 
